@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "59403709791",
+    "project_id": "paperpay-24bbf",
+    "storage_bucket": "paperpay-24bbf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59403709791:android:d648a8f85d2ed61a469aea",
+        "android_client_info": {
+          "package_name": "com.paperpay.paperpay"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhqib1ubFde1p-D1AwUHTL50qs5dgwyRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

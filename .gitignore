@@ -1,0 +1,41 @@
+# ---------------------------------------------------------------------------
+# PaperPay — files that must never be committed
+# ---------------------------------------------------------------------------
+
+# Environment files (real credentials live here — only .env.example is tracked)
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+backend/tmp/
+
+# Flutter / Dart
+app/.dart_tool/
+app/.flutter-plugins
+app/.flutter-plugins-dependencies
+app/build/
+app/coverage/
+app/**/Flutter/ephemeral/
+app/ios/Pods/
+app/android/.gradle/
+app/android/local.properties
+app/android/key.properties
+app/*.iml
+
+# Editor / OS
+.idea/
+.vscode/
+*.iml
+*.swp
+.DS_Store
+Thumbs.db
+
+# Tooling scratch space
+.freebuff/
+*.log
+app/playwright_*.js
+app/playwright_*.png
